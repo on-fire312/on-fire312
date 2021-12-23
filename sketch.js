@@ -165,7 +165,7 @@ else {
     fill(255,0,0);
     text("red controlled with wasd, v to shoot",width/2,500)
     fill(0,0,255);
-    text("blue controlled with arrow keys, left shift to shoot",width/2,550)
+    text("blue controlled with arrow keys, right shift to shoot",width/2,550)
     fill(255,0,255);
     text("first to 5 wins",width/2,600)
 
