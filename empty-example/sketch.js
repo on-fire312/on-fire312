@@ -79,7 +79,6 @@ function preload() {
   topMarks = loadFont('Fonts/Topmarks-Regular.ttf');
   timesNewRoman = loadFont('Fonts/times-new-roman.ttf');
   
-
 }
 function setup() {
 
