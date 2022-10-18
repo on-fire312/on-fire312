@@ -77,8 +77,9 @@ function preload() {
   newSentences = loadStrings('sentences/sentences.txt');
   ruluko = loadFont('Fonts/Ruluko-Regular.ttf');
   topMarks = loadFont('Fonts/Topmarks-Regular.ttf');
-  timesNewRoman = loadFont('Fonts/times-new-roman.ttf');
+  timesNewRoman = loadFont('fonts/times-new-roman.ttf');
   
+
 }
 function setup() {
 
@@ -1132,4 +1133,5 @@ function touchStarted(){
 function touchEnded(){
   touched=0
 }
+
 
