@@ -1,0 +1,12 @@
+#The car was _.
+red
+fast
+slow
+green
+broken
+#Harry was _.
+sad
+happy
+hurt
+excited
+#end
