@@ -1,6 +1,6 @@
 //Written by Oscar Hitchcock-Smith
 // written by oscar, this is the main javascript file where the game is run from. all other classes are referenced from here.
-let gitMod=10
+let gitMod=0
 let words = [];
 let startButton = [];
 let nav = [];
