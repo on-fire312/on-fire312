@@ -262,7 +262,7 @@ function draw() { // runs once every frame
     autoSave();
   };
   frameCycle++;
-  if (currentCanvasX != windowWidth || currentCanvasY != windowHeight) { //if window size has changed
+  if (currentCanvasX != windowWidth-50 || currentCanvasY != windowHeight-50) { //if window size has changed
     resetVisuals();
   };
   backdrop(); //draw background (canvas, stars, etc...)
@@ -1414,9 +1414,9 @@ function toggMute() {
 };
 function resetVisuals() {
   //reset coordinates of all objects
-  currentCanvasX = windowWidth;
-  currentCanvasY = windowHeight;
-  resizeCanvas(windowWidth, windowHeight);
+  currentCanvasX = windowWidth-50;
+  currentCanvasY = windowHeight-50;
+  resizeCanvas(windowWidth-50, windowHeight-50);
   xCanvasRatio = currentCanvasX / 1920;
   yCanvasRatio = currentCanvasY / 1080;
   if (xCanvasRatio > yCanvasRatio) {
