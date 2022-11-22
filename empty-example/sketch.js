@@ -1,6 +1,6 @@
 //Written by Oscar Hitchcock-Smith
 // written by oscar, this is the main javascript file where the game is run from. all other classes are referenced from here.
-
+let gitMod=20
 let words = [];
 let startButton = [];
 let nav = [];
@@ -109,9 +109,9 @@ function setup() {
 
 
 
-  currentCanvasX = windowWidth-50; //stores value to cross check later
-  currentCanvasY = windowHeight-50;
-  createCanvas(windowWidth-50, windowHeight-50);
+  currentCanvasX = windowWidth-gitMod; //stores value to cross check later
+  currentCanvasY = windowHeight-gitMod;
+  createCanvas(windowWidth-gitMod, windowHeight-gitMod);
 
   textAlign(CENTER);
   textFont(topMarks);//sets font
@@ -262,7 +262,7 @@ function draw() { // runs once every frame
     autoSave();
   };
   frameCycle++;
-  if (currentCanvasX != windowWidth-50 || currentCanvasY != windowHeight-50) { //if window size has changed
+  if (currentCanvasX != windowWidth-gitMod || currentCanvasY != windowHeight-gitMod) { //if window size has changed
     resetVisuals();
   };
   backdrop(); //draw background (canvas, stars, etc...)
@@ -1414,9 +1414,9 @@ function toggMute() {
 };
 function resetVisuals() {
   //reset coordinates of all objects
-  currentCanvasX = windowWidth-50;
-  currentCanvasY = windowHeight-50;
-  resizeCanvas(windowWidth-50, windowHeight-50);
+  currentCanvasX = windowWidth-gitMod;
+  currentCanvasY = windowHeight-gitMod;
+  resizeCanvas(windowWidth-gitMod, windowHeight-gitMod);
   xCanvasRatio = currentCanvasX / 1920;
   yCanvasRatio = currentCanvasY / 1080;
   if (xCanvasRatio > yCanvasRatio) {
