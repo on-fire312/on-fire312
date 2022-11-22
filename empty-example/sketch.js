@@ -109,9 +109,9 @@ function setup() {
 
 
 
-  currentCanvasX = windowWidth; //stores value to cross check later
-  currentCanvasY = windowHeight;
-  createCanvas(windowWidth, windowHeight);
+  currentCanvasX = windowWidth-50; //stores value to cross check later
+  currentCanvasY = windowHeight-50;
+  createCanvas(windowWidth-50, windowHeight-50);
 
   textAlign(CENTER);
   textFont(topMarks);//sets font
