@@ -157,15 +157,15 @@ function setup() {
   let goToScores = new button(windowWidth / 2 - 150, windowHeight / 2 + 280, 300, 60, "Scores", 50); //timer
   endScreen.push(goToScores); //endScreen[0]
   //font selection
-  let newFont = new textBox(windowWidth / 2 - 87.5, windowHeight / 2 - 70, 175, 50, "Font Selection", 30); //font selection button
+  let newFont = new textBox(windowWidth / 2 - 100, windowHeight / 2 - 70, 200, 50, "Font Selection", 30); //font selection button
   fontSelect.push(newFont); //fontSelect[0]
-  newFont = new button(windowWidth / 2 - 87.5, windowHeight / 2, 175, 25, "Ruluko (default)", 20);
+  newFont = new button(windowWidth / 2 - 100, windowHeight / 2, 200, 30, "Ruluko (default)", 20);
   fontSelect.push(newFont); //fontSelect[1]
-  newFont = new button(windowWidth / 2 - 87.5, windowHeight / 2 + 40, 175, 25, "TopMarks (regular)", 20);
+  newFont = new button(windowWidth / 2 - 100, windowHeight / 2+50, 200, 30, "TopMarks (regular)", 20);
   fontSelect.push(newFont); //fontSelect[2]
-  newFont = new button(windowWidth / 2 - 87.5, windowHeight / 2 + 80, 175, 25, "open-Dyslexic", 20);
+  newFont = new button(windowWidth / 2 - 100, windowHeight / 2+100, 200, 30, "open-Dyslexic", 20);
   fontSelect.push(newFont); //fontSelect[3]
-  newFont = new button(windowWidth / 2 - 87.5, windowHeight / 2 + 120, 175, 25, "Segoe UI (win Default)", 20);
+  newFont = new button(windowWidth / 2 - 100, windowHeight / 2+150, 200, 30, "Segoe UI (win Default)", 20);
   fontSelect.push(newFont); //fontSelect[4]
   let toggleAdvanced = new optionSelect(10, windowHeight - 90, 220, 25, "Advanced punctuation", 20);//advanced grammar toggle
   settings.push(toggleAdvanced); //settings[0]
@@ -1442,11 +1442,11 @@ function resetVisuals() {
   nav[3].move(windowWidth / 2 - 180, windowHeight / 2 + 200);
   nav[4].move(10, windowHeight - 30);
   checking[0].move(windowWidth / 2 - 100, windowHeight - 170);
-  fontSelect[0].move(windowWidth / 2 - 87.5, windowHeight / 2 - 70);
-  fontSelect[1].move(windowWidth / 2 - 87.5, windowHeight / 2);
-  fontSelect[2].move(windowWidth / 2 - 87.5, windowHeight / 2 + 40);
-  fontSelect[3].move(windowWidth / 2 - 87.5, windowHeight / 2 + 80);
-  fontSelect[4].move(windowWidth / 2 - 87.5, windowHeight / 2 + 120);
+  fontSelect[0].move(windowWidth / 2 - 100, windowHeight / 2 - 70);
+  fontSelect[1].move(windowWidth / 2 - 100, windowHeight / 2);
+  fontSelect[2].move(windowWidth / 2 - 100, windowHeight / 2 + 50);
+  fontSelect[3].move(windowWidth / 2 - 100, windowHeight / 2 + 100);
+  fontSelect[4].move(windowWidth / 2 - 100, windowHeight / 2 + 150);
   settings[0].move(10, windowHeight - 90);
   settings[1].move(10, windowHeight - 120, 200);
   settings[2].move((windowWidth / 2) - 125, windowHeight - 100);
